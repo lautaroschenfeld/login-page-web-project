@@ -6,13 +6,13 @@
 
 
 @font-face {
-    font-family: 'Asimov Pro Bold';
-    src: url(/fonts/AsimovProBold.ttf);
+    font-family: 'AsimovProBold';
+    src: url(../fonts/AsimovProBold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Vazir';
-    src: url(/fonts/Vazir.ttf);
+    src: url(../fonts/Vazir.ttf) format('truetype');
 }
 
 body {
@@ -26,7 +26,7 @@ img {
 }
 
 h1 {
-    font-family: 'Asimov Pro Bold';
+    font-family: 'AsimovProBold';
     font-size: 33px;
     text-align: justify;
     margin-top: 1%;
@@ -109,6 +109,7 @@ button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     padding-left: 3%;
+    padding-right: 3%;
     padding-top: 1.5%;
     border-radius: 15px;
 }
