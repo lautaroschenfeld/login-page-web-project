@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 @font-face {
     font-family: 'AsimovProBold';
     src: url(../fonts/AsimovProBold.ttf) format('truetype');
@@ -21,13 +20,13 @@ body {
 
 img {
     width: 60%;
-    height: 60%;
+    height: auto;
     margin-bottom: 10%;
 }
 
 h1 {
     font-family: 'AsimovProBold';
-    font-size: 33px;
+    font-size: 32px;
     text-align: justify;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -101,7 +100,8 @@ button:hover {
 }
 
 .card {
-    width: 30%;
+    width: 80%;
+    max-width: 560px;
     background-color: #FFFFFF;
     padding: 20px;
     position: absolute;
